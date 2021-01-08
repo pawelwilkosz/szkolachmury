@@ -26,3 +26,6 @@ Where:
 
 
 # Tagging
+Each resource should have following tags:
+* **Type of creation:** resource created via CI/CD pipeline: **devops**, resource created manually: **manual**
+* **Stage:** sbox, dev, qa, stage, prod

@@ -5,7 +5,7 @@
 # Naming
 ## Resources 
 Name of the particular resource contains following information
-<Project-Reference>-<Resource-Type>-[<Workload/Application>]-<Environment>-<Region>-<Instance>
+'<Project-Reference>-<Resource-Type>-[<Workload/Application>]-<Environment>-<Region>-<Instance>'
 
 Example:
 sc-keyvault-auth-prod-eastus-001

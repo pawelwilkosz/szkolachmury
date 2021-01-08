@@ -7,15 +7,6 @@
 Name of the particular resource contains following information
 ```<Project-Reference>-<Resource-Type>-[<Workload/Application>]-<Environment>-<Region>-<Instance>```
 
-Example:
-```sc-keyvault-auth-prod-eastus-001```
-| **Azure Resource** | **Example** | **Note** |
-| ------------------ | ------------ | -------- | 
-| VNET| sc-vnet-sys-prod-eastus-001 |  |
-| VM| sc-vm-l-elastic-prod-eastus-001, sc-vm-w-elastic-prod-eastus-002 | Postfix *l* for linux, *w* for windows |
-| Storage Account |scsacssprodeastus001 | No special characters allowed, name limited to the 24 characters |
-| Disks | sc-disc-vmelastic-prod-eastus-001 | Postfix determines to which VM particular disk belongs to |
-
 Where:
 * **Project Referece** - static prefix cs (szkola chmury)
 * **Resource Type** - the name of azure resource e.g. vault (keyvault), storageaccount, cosmosdb etc.
@@ -29,6 +20,14 @@ Where:
 * **Region** - azure region (e.g. eastus, westus etc)
 * instance - the number of instance
 
+Example:
+```sc-keyvault-auth-prod-eastus-001```
+| **Azure Resource** | **Example** | **Note** |
+| ------------------ | ------------ | -------- | 
+| VNET| sc-vnet-sys-prod-eastus-001 |  |
+| VM| sc-vm-l-elastic-prod-eastus-001, sc-vm-w-elastic-prod-eastus-002 | Postfix *l* for linux, *w* for windows |
+| Storage Account |scsacssprodeastus001 | No special characters allowed, name limited to the 24 characters |
+| Disks | sc-disc-vmelastic-prod-eastus-001 | Postfix determines to which VM particular disk belongs to |
 
 
 # Tagging

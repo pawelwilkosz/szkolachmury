@@ -1,2 +1,4 @@
 # szkolachmury
-Rozwiązania zadań z kursu Architecting Microsoft Azure Solutions (szkolachmury.pl)
+Rozwiązania zadań z kursów:
+  - Architecting Microsoft Azure Solutions
+  - AI/ML - od zera do bohatera

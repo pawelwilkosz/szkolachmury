@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.neural_network import MLPClassifier
 
-df = pandas.read_csv("C:\Personal\Data\M7\Churn_Modelling.csv", sep=",", header=0);
+df = pandas.read_csv("Churn_Modelling.csv", sep=",", header=0);
 
 df.head()
 df.describe()
